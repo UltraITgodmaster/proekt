@@ -8,5 +8,29 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="Btn1" Height="50" Width="200" Content="Обыная кнопка">
+            <Button.Background>
+                <LinearGradientBrush>
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStop Color="LightBlue" Offset="0"/>
+                        <GradientStop Color="DarkBlue" Offset="1"/>
+
+                    </LinearGradientBrush.GradientStops>
+                </LinearGradientBrush>
+            </Button.Background>
+            
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.329"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+
     </Grid>
 </Window>
