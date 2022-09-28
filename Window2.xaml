@@ -7,13 +7,13 @@
         mc:Ignorable="d"
         Title="Window2" Height="450" Width="800">
     <Grid>
-        <Canvas>
-            <Label Canvas.Left="10" Canvas.Top="10" Content="Регистрация пользователя" />
-            <Label Canvas.Left="10" Canvas.Top="40" Content="ФИО" />
-            <TextBox Canvas.Left="70" Canvas.Top="40" Width="200" />
-            <Label Canvas.Left="10" Canvas.Top="70" Content="Email" />
-            <TextBox Canvas.Left="70" Canvas.Top="70" Width="200" />
-            <Button Canvas.Left="50" Canvas.Top="100" Content="Зарегистрироваться" />
-        </Canvas>
+        <Grid.RowDefinitions>
+</Grid.RowDefinitions>
+        <Label Content="Регистрация" HorizontalAlignment="Left" Margin="24,14,0,0" VerticalAlignment="Top" Cursor=""/>
+        <Label Content="фио" HorizontalAlignment="Left" Margin="25,42,0,0" VerticalAlignment="Top" Cursor=""/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="24,83,0,0" VerticalAlignment="Top" Cursor=""/>
+        <Button Content="Зарегистрироваться" HorizontalAlignment="Left" Margin="103,145,0,0" VerticalAlignment="Top" Width="126"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="89,44,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="208"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="88,86,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="210"/>
     </Grid>
 </Window>

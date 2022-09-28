@@ -30,5 +30,11 @@ namespace proekt
             MessageBox.Show("Привет группа исп!");
 
         }
+
+        private void Btn1_Click(object sender, RoutedEventArgs e)
+        {
+            Window2 window2 = new Window2();
+            window2.Show();
+        }
     }
 }

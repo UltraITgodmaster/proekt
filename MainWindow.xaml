@@ -11,7 +11,7 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="Btn1" Height="50" Width="200" Content="Обыная кнопка">
+        <Button x:Name="Btn1" Height="50" Width="200" Content="Обыная кнопка" Click="Btn1_Click">
             <Button.Background>
                 <LinearGradientBrush>
                     <LinearGradientBrush.GradientStops>
